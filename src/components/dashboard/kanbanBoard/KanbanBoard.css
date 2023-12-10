@@ -1,0 +1,36 @@
+.kanbanBoard {
+	display: flex;
+	width: fit-content;
+	padding: 1rem 2rem;
+	gap: 2rem;
+}
+
+.kanbanHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.kanbanHeaderInfo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1rem;
+}
+
+.kanbanHeaderInfo > * {
+	margin: 0;
+}
+.kanbanHeaderInfo > p {
+	font-size: 0.8rem;
+}
+.kanbanHeaderOptions {
+	display: flex;
+	gap: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.kanbanHeaderOptions > * {
+	cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.dropdownModal {
+	position: absolute;
+	width: 16rem;
+	background-color: #f8f9fb;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	z-index: 10;
+}
+
+.dropdownModal > span {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.7rem;
+}
