@@ -53,7 +53,6 @@ const KanbanBoard = () => {
 	};
 
 	const getHeader = (card) => {
-		const grouping = localStorage.getItem("grouping");
 		if (grouping === "user") {
 			const user = findUserById(card.userId);
 			return (
